@@ -160,16 +160,16 @@ body {
     }
 
     .atividades .site .lado_a_lado_esporte .descricao .borda h3{
-        font-size: 14pt;
+        font-size: 14pt !important;
     }
 
     .atividades .site .lado_a_lado_esporte .descricao_esporte a{
-        font-size: 15pt;
+        font-size: 15pt !important;
     }
 
 
     .atividades .site .lado_a_lado_esporte .borda_01 .verifique h2 {
-        font-size: 14pt;
+        font-size: 14pt !important  ;
     }
 
 
