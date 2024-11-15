@@ -184,7 +184,7 @@ header .site nav ul li a{
 .atividades .site .lado_a_lado_esporte{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    
     }
     
 
@@ -235,21 +235,58 @@ header .site nav ul li a{
 }
 
 
-.atividades .site .lado_a_lado_esporte .borda_01 .verique {
+
+.atividades .site .lado_a_lado_esporte .borda_01{
+    display: flex ;
+    align-items: center;
+   
+    text-align: center;
+}
+
+.atividades .site .lado_a_lado_esporte .borda_01 .verifique {
     
-    width: 93%;
+    display: flex;
+    align-items: center;
     background-color: #02F128;
     border-radius: 50px;
     text-align: center;
-    margin-top: 20px;
     color: white;
     font-family: var(--font_para_texto);
+    margin-top: 20px;
+
 }
 
 
+.atividades .site .lado_a_lado_esporte .borda_01 .verifique h2{
+    margin: 0 7px;
+}
 
 
+.atividades .site .lado_a_lado_esporte .borda_01 .localizacao{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+}
 
+
+.atividades .site .lado_a_lado_esporte .borda_01 .localizacao img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+
+.atividades .site .lado_a_lado_esporte .texto{
+    width: 65%;
+    margin-top: 55px;
+    font-size: 15pt;
+   
+}
+
+.atividades .site .lado_a_lado_esporte .texto p{
+    font-family: var(--font_para_texto);
+}
 
 
 
