@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+body {
+    background-color: antiquewhite;
+    height: 100vh; /* Garantir que o body ocupe toda a altura da tela */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+
+
+
+:root{
+    --borda_esporte:#02F128;
+    --borda_cultura: #00A3FF;
+    --font_para_texto: "Jacques Francois";
+}
+.escolha_atividade{
+  
+    display: flex;
+    flex-flow:  row wrap;
+    
+}
+
+.escolha_atividade .site .ben_vido{
+    display: flex;
+    flex-flow: column wrap;
+}
+.escolha_atividade .site .ben_vido h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30pt;
+    font-family: var(--font_para_texto);
+}
+
+.escolha_atividade .site .ben_vido h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20pt;
+    font-family: var(--font_para_texto);
+}
+
+.escolha_atividade .site .lado_a_lado{
+    display: flex;
+    flex-flow: row wrap;
+   justify-content: space-between;
+}
+
+.escolha_atividade .site .lado_a_lado a {
+    text-decoration: none;
+}
+
+.escolha_atividade .site .lado_a_lado .esporte,
+.escolha_atividade .site .lado_a_lado .cultura {
+    width: 170px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-bottom: 5px solid  var(--borda_esporte);
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0 0px;
+}
+
+.escolha_atividade .site .lado_a_lado .cultura{
+    border-bottom: 5px solid var(--borda_cultura);
+}
+    
+
+
+.escolha_atividade .site .lado_a_lado .esporte h1, .escolha_atividade .site .lado_a_lado .cultura h1 {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: var(--font_para_texto);
+
+}
+
+.escolha_atividade .site .lado_a_lado .esporte img {
+    width: 80px;
+    height: 80px;
+}
+
+
+@media (max-width: 468px) {
+
+
+    .escolha_atividade .site .lado_a_lado{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+
+
+    .escolha_atividade .site .lado_a_lado .esporte , .escolha_atividade .site .lado_a_lado .cultura{
+        margin: 20px 0;
+    }
+
+
+
+
+
+
+}
+    
+
+/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
+
+
+
+
+
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+
+.esportes{
+    background-color: antiquewhite;
+    height: 100vh; /* Garantir que o body ocupe toda a altura da tela */
+    display: flex;
+     /* Centraliza o conteúdo verticalmente */
+    flex-direction: column;
+    justify-content: start;
+   
+}
+
+header{
+    padding-top: 150px;
+    width: 100%;
+    
+    
+    
+
+}
+
+header .site nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header .site nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: var(--font_para_texto);
+    font-weight: bold;
+}
+
+.atividades{
+    padding-top: 100px;
+    display: flex;
+    justify-content: start;
+    height: 600px;
+   
+}
+
+
+.atividades .site .lado_a_lado_esporte{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    }
+    
+
+/* .atividades .site .lado_a_lado_esporte .descricao{
+    width: 510px;
+    height: 333px;
+    border-radius: 10px;
+    background-color: #02F128;
+    background-image: url(../img/alongamento.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+} */
+
+.atividades .site .lado_a_lado_esporte .descricao .borda{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 50px;
+    background-color: #02F128;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    top: -50px;
+}
+
+
+.atividades .site .lado_a_lado_esporte .descricao_esporte{
+    display: flex;
+    align-items: center;
+
+}
+
+.atividades .site .lado_a_lado_esporte .descricao_esporte a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font_para_texto);
+    font-size: 20pt;
+}
+
+.atividades .site .lado_a_lado_esporte .descricao_esporte img{
+    margin: 0 25px;
+}
+
+
+.atividades .site .lado_a_lado_esporte .borda_01 .verique {
+    
+    width: 93%;
+    background-color: #02F128;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: var(--font_para_texto);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+
