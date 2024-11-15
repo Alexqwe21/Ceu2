@@ -188,6 +188,56 @@ body {
 }
 
 
+@media (max-width: 500px){
+
+
+
+    .descricao .img_esportes img {
+        width: 300px;
+    }
+
+    .atividades .site .lado_a_lado_esporte .descricao .borda {
+
+        right: 100px !important;
+       
+    }
+
+    .atividades .site .lado_a_lado_esporte .descricao .borda h3{
+        font-size: 5pt !important;
+    }
+
+    .atividades .site .lado_a_lado_esporte .descricao_esporte a{
+        font-size: 5pt !important;
+    }
+
+
+    .atividades .site .lado_a_lado_esporte .borda_01 .verifique h2 {
+        font-size: 5pt !important  ;
+    }
+
+
+    .atividades .site .lado_a_lado_esporte .descricao_esporte{
+        width: 100%;
+    }
+
+
+    .atividades .site .lado_a_lado_esporte .borda_01 .verifique{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 /* PARTE HOME FINZALIZADA */
 /* PARTE HOME FINZALIZADA */
 /* PARTE HOME FINZALIZADA */
