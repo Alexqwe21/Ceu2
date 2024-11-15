@@ -16,49 +16,54 @@
 
 body {
     background-color: antiquewhite;
-    height: 100vh; /* Garantir que o body ocupe toda a altura da tela */
+    height: 100vh;
+    /* Garantir que o body ocupe toda a altura da tela */
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    /* Centraliza o conteúdo verticalmente */
 }
 
 
 
 
-:root{
-    --borda_esporte:#02F128;
+:root {
+    --borda_esporte: #02F128;
     --borda_cultura: #00A3FF;
     --font_para_texto: "Jacques Francois";
 }
-.escolha_atividade{
-  
+
+.escolha_atividade {
+
     display: flex;
-    flex-flow:  row wrap;
-    
+    flex-flow: row wrap;
+
 }
 
-.escolha_atividade .site .ben_vido{
+.escolha_atividade .site .ben_vido {
     display: flex;
     flex-flow: column wrap;
 }
-.escolha_atividade .site .ben_vido h2{
+
+.escolha_atividade .site .ben_vido h2 {
     text-align: center;
     margin-bottom: 50px;
     font-size: 30pt;
     font-family: var(--font_para_texto);
 }
 
-.escolha_atividade .site .ben_vido h3{
+.escolha_atividade .site .ben_vido h3 {
     text-align: center;
     margin-bottom: 50px;
     font-size: 20pt;
     font-family: var(--font_para_texto);
 }
 
-.escolha_atividade .site .lado_a_lado{
+.escolha_atividade .site .lado_a_lado {
     display: flex;
     flex-flow: row wrap;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 .escolha_atividade .site .lado_a_lado a {
@@ -71,7 +76,7 @@ body {
     height: 150px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    border-bottom: 5px solid  var(--borda_esporte);
+    border-bottom: 5px solid var(--borda_esporte);
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
@@ -79,13 +84,14 @@ body {
     margin: 0 0px;
 }
 
-.escolha_atividade .site .lado_a_lado .cultura{
+.escolha_atividade .site .lado_a_lado .cultura {
     border-bottom: 5px solid var(--borda_cultura);
 }
-    
 
 
-.escolha_atividade .site .lado_a_lado .esporte h1, .escolha_atividade .site .lado_a_lado .cultura h1 {
+
+.escolha_atividade .site .lado_a_lado .esporte h1,
+.escolha_atividade .site .lado_a_lado .cultura h1 {
     list-style: none;
     text-decoration: none;
     color: black;
@@ -105,32 +111,33 @@ body {
 @media (max-width: 468px) {
 
 
-    .escolha_atividade .site .lado_a_lado{
+    .escolha_atividade .site .lado_a_lado {
         flex-flow: column wrap;
         align-items: center;
     }
 
 
 
-    .escolha_atividade .site .lado_a_lado .esporte , .escolha_atividade .site .lado_a_lado .cultura{
+    .escolha_atividade .site .lado_a_lado .esporte,
+    .escolha_atividade .site .lado_a_lado .cultura {
         margin: 20px 0;
     }
 
 
-    header .site nav ul{
+    header .site nav ul {
         flex-direction: column;
         align-items: center;
     }
 
-    header .site nav ul li{
+    header .site nav ul li {
         margin: 20px 0;
     }
 
-    .atividades .site .lado_a_lado_esporte .descricao_esporte{
+    .atividades .site .lado_a_lado_esporte .descricao_esporte {
         flex-flow: column wrap;
     }
 
-    .atividades .site .lado_a_lado_esporte .descricao_esporte h2{
+    .atividades .site .lado_a_lado_esporte .descricao_esporte h2 {
         margin-bottom: 40px;
         font-size: 25pt;
     }
@@ -139,50 +146,109 @@ body {
     .atividades .site .lado_a_lado_esporte .borda_01 {
         flex-flow: column wrap;
         margin: 0 30px;
-}
+    }
+
+
+    .descricao .img_esportes img {
+        width: 300px;
+    }
+
+    .atividades .site .lado_a_lado_esporte .descricao .borda {
+
+        right: 100px !important;
+       
+    }
+
+    .atividades .site .lado_a_lado_esporte .descricao .borda h3{
+        font-size: 14pt;
+    }
+
     
 
-/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
-/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
-/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
-/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
-/* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */ /* PARTE HOME FINZALIZADA */
+}
+
+
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
+/* PARTE HOME FINZALIZADA */
 
 
 
 
 
-/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
-/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
-/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
-/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
 
-.esportes{
+.esportes {
     background-color: antiquewhite;
-    height: 100vh; /* Garantir que o body ocupe toda a altura da tela */
+    height: 100vh;
+    /* Garantir que o body ocupe toda a altura da tela */
     display: flex;
-     /* Centraliza o conteúdo verticalmente */
+    /* Centraliza o conteúdo verticalmente */
     flex-direction: column;
     justify-content: start;
-   
+
 }
 
-header{
+header {
     padding-top: 150px;
     width: 100%;
-    
-    
-    
+
+
+
 
 }
 
-header .site nav ul{
+header .site nav ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
 
-header .site nav ul li a{
+header .site nav ul li a {
     text-decoration: none;
     font-size: 25px;
     color: black;
@@ -190,21 +256,21 @@ header .site nav ul li a{
     font-weight: bold;
 }
 
-.atividades{
+.atividades {
     padding-top: 100px;
-   
-   
+
+
 }
 
 
-.atividades .site .lado_a_lado_esporte{
+.atividades .site .lado_a_lado_esporte {
     display: flex;
     justify-content: space-between;
     flex-flow: column wrap;
     align-items: center;
-    
-    }
-    
+
+}
+
 
 /* .atividades .site .lado_a_lado_esporte .descricao{
     width: 510px;
@@ -218,14 +284,14 @@ header .site nav ul li a{
 } */
 
 
-.atividades .site .lado_a_lado_esporte .descricao{
+.atividades .site .lado_a_lado_esporte .descricao {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     margin-bottom: 100px;
 }
 
-.atividades .site .lado_a_lado_esporte .descricao .borda{
+.atividades .site .lado_a_lado_esporte .descricao .borda {
     width: 100px;
     height: 30px;
     color: white;
@@ -242,13 +308,13 @@ header .site nav ul li a{
 }
 
 
-.atividades .site .lado_a_lado_esporte .descricao_esporte{
+.atividades .site .lado_a_lado_esporte .descricao_esporte {
     display: flex;
     align-items: center;
 
 }
 
-.atividades .site .lado_a_lado_esporte .descricao_esporte a{
+.atividades .site .lado_a_lado_esporte .descricao_esporte a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -257,21 +323,21 @@ header .site nav ul li a{
     font-size: 20pt;
 }
 
-.atividades .site .lado_a_lado_esporte .descricao_esporte img{
+.atividades .site .lado_a_lado_esporte .descricao_esporte img {
     margin: 0 25px;
 }
 
 
 
-.atividades .site .lado_a_lado_esporte .borda_01{
-    display: flex ;
+.atividades .site .lado_a_lado_esporte .borda_01 {
+    display: flex;
     align-items: center;
-   
+
     text-align: center;
 }
 
 .atividades .site .lado_a_lado_esporte .borda_01 .verifique {
-    
+
     display: flex;
     align-items: center;
     background-color: #02F128;
@@ -284,12 +350,12 @@ header .site nav ul li a{
 }
 
 
-.atividades .site .lado_a_lado_esporte .borda_01 .verifique h2{
+.atividades .site .lado_a_lado_esporte .borda_01 .verifique h2 {
     margin: 0 7px;
 }
 
 
-.atividades .site .lado_a_lado_esporte .borda_01 .localizacao{
+.atividades .site .lado_a_lado_esporte .borda_01 .localizacao {
     display: flex;
     align-items: center;
     padding-top: 20px;
@@ -297,21 +363,21 @@ header .site nav ul li a{
 }
 
 
-.atividades .site .lado_a_lado_esporte .borda_01 .localizacao img{
+.atividades .site .lado_a_lado_esporte .borda_01 .localizacao img {
     width: 25px;
     height: 25px;
     margin-right: 20px;
 }
 
 
-.atividades .site .lado_a_lado_esporte .texto{
+.atividades .site .lado_a_lado_esporte .texto {
     width: 65%;
     margin-top: 55px;
     font-size: 15pt;
-   
+
 }
 
-.atividades .site .lado_a_lado_esporte .texto p{
+.atividades .site .lado_a_lado_esporte .texto p {
     font-family: var(--font_para_texto);
     text-align: center;
 }
@@ -330,8 +396,31 @@ header .site nav ul li a{
 
 
 
-/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
-/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
-/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
-/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */ /* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
-
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
+/* AQUI COMEÇA AS ATIVIDADES ESPORTIVAS */
