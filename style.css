@@ -126,7 +126,9 @@ body {
         margin: 20px 0;
     }
 
-
+.descricao img{
+    width: auto;
+}
 
 }
     
