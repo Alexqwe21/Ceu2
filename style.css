@@ -126,10 +126,19 @@ body {
         margin: 20px 0;
     }
 
-.descricao img{
-    width: auto;
-}
+    .atividades .site .lado_a_lado_esporte .descricao_esporte{
+        flex-flow: column wrap;
+    }
 
+    .atividades .site .lado_a_lado_esporte .descricao_esporte h2{
+        margin-bottom: 40px;
+        font-size: 25pt;
+    }
+
+
+    .atividades .site .lado_a_lado_esporte .borda_01 {
+        flex-flow: column wrap;
+        margin: 0 30px;
 }
     
 
