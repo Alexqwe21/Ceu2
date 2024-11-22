@@ -182,7 +182,7 @@ body {
 
     .atividades .site .lado_a_lado_esporte .borda_01 .verifique h2 ,
      .atividades .site .lado_a_lado_cultura .borda_02 .verifique h2 {
-        font-size: 13pt !important  ;
+        font-size: 10pt !important  ;
     }
 
 
@@ -200,6 +200,10 @@ body {
 
 footer{
     font-size: 10pt;
+}
+
+.descricao_esporte h3{
+    text-align: center;
 }
 
 }
