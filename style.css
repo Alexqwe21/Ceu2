@@ -111,7 +111,14 @@ body {
 @media (max-width: 468px) {
 
 
-   
+    .descricao_esporte h3{
+        text-align: center;
+    }
+
+
+    .atividades .site .lado_a_lado_esporte .descricao .descricao_esporte h2, .atividades .site .lado_a_lado_cultura .descricao .descricao_cultura h2{
+        font-size: 25pt !important;
+    }
 
     .escolha_atividade .site .lado_a_lado {
         flex-flow: column wrap;
