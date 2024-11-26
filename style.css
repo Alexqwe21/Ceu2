@@ -111,6 +111,10 @@ body {
 @media (max-width: 468px) {
 
 
+    .descricao_esporte h3{
+        text-align: center;
+    }
+
     .escolha_atividade .site .lado_a_lado {
         flex-flow: column wrap;
         align-items: center;
